@@ -43,7 +43,7 @@
     cursor: pointer;
   }
   
-  .navbar .right-nav a {
+  .navbar .right-nav h4 {
     color: var(--black-color);
     text-decoration: none;
     font-size: 1.2rem;
