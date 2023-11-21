@@ -51,10 +51,10 @@ const Navbar = () => {
         
        
         <h4 onClick={() => navigate("/components")}>Components</h4>
+        <Link to="https://github.com/jagriti-sethia/componentui" target="_blank">
         
-       
-          <i className="fa-brands fa-github" onClick={() => navigate("https://github.com/jagriti-sethia/componentui")}></i>
-        
+          <i className="fa-brands fa-github"></i>
+        </Link>
       </div>
     </nav>
   );
