@@ -47,15 +47,14 @@ const Navbar = () => {
         </div>
       </div>
       <div className="right-nav">
-        <a href="/">Home</a>
-        <a href="/components">Components</a>
-        <a
-          href="https://github.com/jagriti-sethia/componentui"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="fa-brands fa-github"></i>
-        </a>
+        <h4 onClick={() => navigate("/")}>Home</h4>
+        
+       
+        <h4 onClick={() => navigate("/components")}>Components</h4>
+        
+       
+          <i className="fa-brands fa-github" onClick={() => navigate("https://github.com/jagriti-sethia/componentui")}></i>
+        
       </div>
     </nav>
   );
