@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaGithub } from "react-icons/fa";
 import "./navbar.css";
 // import logo from "../../assets/sigma.png";
 import { useNavigate } from "react-router-dom";
@@ -53,7 +54,7 @@ const Navbar = () => {
         <h4 onClick={() => navigate("/components")}>Components</h4>
         <Link to="https://github.com/jagriti-sethia/componentui" target="_blank">
         
-          <i className="fa-brands fa-github"></i>
+        <FaGithub title="GitHub" />
         </Link>
       </div>
     </nav>
