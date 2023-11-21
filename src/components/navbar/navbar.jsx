@@ -50,7 +50,7 @@ const Navbar = () => {
         <a href="/">Home</a>
         <a href="/components">Components</a>
         <a
-          href="https://github.com/SudiptaChakraborty51/sigma-ui"
+          href="https://github.com/jagriti-sethia/componentui"
           target="_blank"
           rel="noreferrer"
         >
